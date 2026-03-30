@@ -1,71 +1,71 @@
-# 🎓 UPF Gestion - Modern University Management Platform
+# 🎓 UPF Gestion - Plateforme de Gestion Universitaire Moderne
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.x-purple.svg)
 ![Design](https://img.shields.io/badge/Design-Glassmorphism-pink.svg)
 
-**UPF Gestion** is a premium, open-source university management platform designed with a focus on **Creative Simplicity** and **High-Fidelity UI/UX**. Built using a clean **MVC (Model-View-Controller)** architecture, it provides a seamless experience for both administrators and students.
+**UPF Gestion** est une plateforme de gestion universitaire haut de gamme, conçue pour offrir une expérience utilisateur exceptionnelle grâce à une **Simplicité Créative** et une **Interface Haute-Fidélité**. Basée sur une architecture **MVC (Modèle-Vue-Contrôleur)** propre, elle assure une navigation fluide tant pour les administrateurs que pour les étudiants.
 
 ---
 
-## ✨ Key Features
+## ✨ Fonctionnalités Clés
 
-### 🏢 For Administrators
-- **Modern Student Management:** Sleek, glass-inspired interfaces for listing, adding, and modifying student records.
-- **Dynamic Search & Filtering:** Fast and intuitive search across the entire student database.
-- **Academic Tracking:** Manage filières (majors) and student performance with ease.
-- **Premium Dashboards:** Data-driven insights with modern visual aesthetics.
+### 🏢 Pour les Administrateurs
+- **Gestion Moderne des Étudiants :** Interfaces élégantes inspirées du design "glassmorphism" pour lister, ajouter et modifier les dossiers étudiants.
+- **Recherche & Filtrage Dynamique :** Système de recherche rapide et intuitif pour parcourir l'ensemble de la base de données.
+- **Suivi Académique :** Gérer les filières et les performances des étudiants en toute simplicité.
+- **Tableaux de Bord Premium :** Visualisation moderne des données clés.
 
-### 🎓 For Students
-- **Personalized Portal:** A high-end greeting dashboard with real-time session stats.
-- **Document Management:** Securely view and search academic documents.
-- **Digital Profile:** Modern profile management with instant photo updates.
-- **Grade Tracking:** Elegant display of academic results and notes.
-
----
-
-## 🎨 Design Language: "Creative & Simple"
-The platform utilizes a modern **Glassmorphism** aesthetic characterized by:
-- `backdrop-filter: blur(12px)` for premium depth.
-- Smooth gradients (Indigo, Violet, Amber).
-- Responsive single-row navigation.
-- Interactive micro-animations and hover effects.
-- Modern typography using system-native high-quality fonts.
+### 🎓 Pour les Étudiants
+- **Portail Personnalisé :** Un tableau de bord d'accueil moderne avec statistiques de session en temps réel.
+- **Gestion des Documents :** Consulter et rechercher vos documents académiques en toute sécurité.
+- **Profil Numérique :** Gestion du profil avec mise à jour instantanée de la photo.
+- **Suivi des Notes :** Affichage élégant des résultats académiques et relevés.
 
 ---
 
-## 🛠️ Tech Stack
-- **Backend:** PHP 8.x (Custom MVC Architecture)
-- **Database:** MySQL (Relational Schema)
-- **Frontend:** Vanilla CSS3, Semantic HTML5
-- **Icons:** FontAwesome 6 (Pro-feel icons)
-- **Server:** Optimized for XAMPP/WAMP environments
+## 🎨 Langage de Design : "Créatif & Simple"
+La plateforme utilise une esthétique **Glassmorphism** moderne caractérisée par :
+- `backdrop-filter: blur(12px)` pour une profondeur premium.
+- Gradients doux (Indigo, Violet, Ambre).
+- Navigation horizontale sur une seule ligne (Responsive).
+- Micro-animations interactives et effets de survol.
+- Typographie moderne utilisant des polices système de haute qualité.
+
+---
+
+## 🛠️ Stack Technique
+- **Backend :** PHP 8.x (Architecture MVC personnalisée)
+- **Base de données :** MySQL (Schéma relationnel)
+- **Frontend :** Vanilla CSS3, HTML5 Sémantique
+- **Icônes :** FontAwesome 6 (Look & Feel professionnel)
+- **Serveur :** Optimisé pour les environnements XAMPP/WAMP
 
 ---
 
 ## 🚀 Installation
 
-1. **Clone the repository:**
+1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/your-username/gestion_upf_mvc.git
+   git clone https://github.com/votre-utilisateur/gestion_upf_mvc.git
    ```
 
-2. **Database Setup:**
-   - Import the `database.sql` file (found in the root directory) into your MySQL server.
-   - Configure your credentials in `models/BaseModel.php`.
+2. **Configuration de la Base de Données :**
+   - Importez le fichier `database.sql` (situé à la racine) dans votre serveur MySQL.
+   - Configurez vos identifiants dans `models/BaseModel.php`.
 
-3. **Deploy:**
-   - Move the project folder to `htdocs` (XAMPP) or `www` (WAMP).
-   - Access via `http://localhost/gestion_upf_mvc`.
-
----
-
-## 📸 Preview
-*(Insert your screenshots here after publishing to GitHub)*
+3. **Déploiement :**
+   - Déplacez le dossier du projet dans `htdocs` (XAMPP) ou `www` (WAMP).
+   - Accédez via `http://localhost/gestion_upf_mvc`.
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📸 Aperçu
+*(Insérez vos captures d'écran ici après la publication sur GitHub)*
 
-Developed with ❤️ for the UPF Community.
+---
+
+## 📄 Licence
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+Développé avec ❤️ pour la communauté UPF.
